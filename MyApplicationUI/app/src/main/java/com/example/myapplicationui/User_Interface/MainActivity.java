@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         TTSClass.Init(this, "음성메뉴는 위쪽, 터치메뉴는 아래쪽을 터치하세요");
     }
-
+//이것저것주석 테스트
     public void onClickVoice(View view) {
         ((whiteVoice)getApplicationContext()).WV = 100;
         Intent intent = new Intent(this, MenuActivity.class);
